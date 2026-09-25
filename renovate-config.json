@@ -27,7 +27,7 @@
     },
     {
       "description": "Auto-merge non-major bumps only in repos whose CI runs tests on pull requests. Free plan has no required checks, so Renovate itself waits for green checks instead of GitHub native auto-merge.",
-      "matchRepositories": ["CiviLensSolutions/vohl-next"],
+      "matchRepositories": ["CiviLensSolutions/vohl-next", "CiviLensSolutions/regatta-ai"],
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true,
